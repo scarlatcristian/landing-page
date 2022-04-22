@@ -4,6 +4,74 @@
     margin: 0px;
 }
 
+body{
+    line-height: 1.5em;
+    background-color: #0693e3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    max-width: 75%;
+}
+
 .navbar{
+    background-color: #0693e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo{
+    margin: 0px 20px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.navbar ul li:hover{
+    color: aliceblue;
+}
+
+
+
+
+.upmid{
+    background-color: #0693e3;
+    height: 200px;
+}
+
+.upperlow{
     background-color: #8ed1fc;
+}
+
+.midlow{
+    background-color: white;
+}
+
+.upperlow{
+    background-color: yellow;
+}
+
+.lowerlow{
+    background-color: #3882f6;
+}
+
+.signup{
+    background-color: #3882f6;
 }
