@@ -6,13 +6,17 @@
 
 body{
     line-height: 1.5em;
-    background-color: #0693e3;
+    background-color: #19b2ff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img{
-    max-width: 75%;
-}
+    max-width: 400px;
+    height: auto;
+    border-radius: 60px;
+}   
+
+
 
 .navbar{
     background-color: #0693e3;
@@ -21,6 +25,10 @@ img{
     align-items: center;
     height: 65px;
     color: white;
+    width: auto;
+    min-width: 400px;
+    margin: auto;
+    padding: 0px 30px;
 }
 
 .navbar ul{
@@ -42,36 +50,147 @@ ul{
     margin: 0px 20px;
     font-size: 24px;
     font-weight: bolder;
+    flex-shrink: 0;
 }
 
 .navbar ul li:hover{
-    color: aliceblue;
+    color: #1f2937;
 }
 
 
 
 
-.upmid{
-    background-color: #0693e3;
-    height: 200px;
+.midupper{
+    background-color: #19b2ff; 
+    margin: auto;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.upperlow{
-    background-color: #8ed1fc;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width:500px;
 }
+
+h1{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+
 
 .midlow{
-    background-color: white;
+    background-color: #19b2ff;
+    max-width: auto;
+    min-width: 400px;
+    margin: auto;
+    padding: 0px 30px;
 }
 
-.upperlow{
-    background-color: yellow;
+.title{
+    display: flex;
+    justify-content:flex-start;
+    padding: 50px;
 }
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    gap: 25px;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.lowupper{
+    background-color: #ff6619;
+    color: white;
+    min-width: 400px;
+    max-width: 1100px;
+    margin: 70px auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+.textquote{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end    ;
+}
+
+.source{
+    margin-right: 50px;
+    font-style: italic;
+}
+
+
+
+
 
 .lowerlow{
-    background-color: #3882f6;
+    background-color: #ffff;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 70px auto;
+    padding: 30px 30px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .signup{
     background-color: #3882f6;
+    color: white;
+    max-width: 100px;
+    min-height: 8px;
+    margin: 4 2;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.information{
+    margin-bottom: 15px;
+}
+
+.signup:hover{
+    color: #1f2937;
+}
+
+
+
+.footer{
+    width: auto;
+    background-color: #0693e3 ;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
