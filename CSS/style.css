@@ -95,14 +95,16 @@ p{
     background-color: #19b2ff;
     max-width: auto;
     min-width: 400px;
-    margin: auto;
+    margin: 50px;
     padding: 0px 30px;
+
 }
 
 .title{
     display: flex;
-    justify-content:flex-start;
-    padding: 50px;
+    margin-bottom: 40px;
+    margin-left: 65px;
+
 }
 
 .boxes{
